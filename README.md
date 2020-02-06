@@ -1,4 +1,6 @@
 # Public Cloud Migration Case
+# Introduction
+
 This repo is a migration case study from on-premise to Amazon Web Services. You will see a set of solutions about the Business Requirements have been shaped by client.
 
 The customer, you are working with, asks you to create a pilot for one of the company's applications in public
@@ -42,6 +44,31 @@ purposes.
 
 The Customer wants you to present your solution and demonstrate the benefits supported by proper documentation.
 provide all the source code produced in the creation of the infrastructure in an organized way.
+
+
+# Solutions
+
+The solutions is going to be provided in three different categories;
+
+1. Architectural Diagram 
+2. Documentation
+3. IaC Template on AWS CloudFormation
+
+# Architectural Diagram has been designed below as a solution to each of business problems: 
+
+<div class="sl-block is-focused" data-block-type="image" style="width: 946.726px; height: 667.734px; left: 6.637px; top: 18.865px; min-width: 1px; min-height: 1px;" data-origin-id="9e9174ae6ada4691ed8e91453e3b1e99"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1639" data-natural-height="1156" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7027873/twoTierWebApp__1_.jpg"></div></div>
+
+# Documentation
+
+The current architecture can be described as a classic monolith application lying down a firewall, which denies all requests by default from internet but allows only specific type of requests such as HTTP, HTTPS OR SSH on different ports after the configgirations has been applied. At the first glance, it is also easier to identify this architecture as a two-tier web application, which is consist of a web-server and database server. 
+
+When I analyze the business requirements and think about the available architecture, a number of changes would be implemented to make architecture high available, scalable and secure. It can be said that these requirements would be done with migration the current architecture to Amazon Web Services.
+
+In the next section, I will investigate the business problems one by one and provide the solution I designed on the architectural diagram on section 1.
+
+1. 
+
+
 
 
 
