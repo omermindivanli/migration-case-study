@@ -90,13 +90,11 @@ Requirement 4. The Customer is planning to have more than 100 developers to work
 
 Requirement 5. The Customer wants to provision separated environments to support their development process for development, testing, production in the near future.
 
-- Solution 5. "Infrastructure as code (IaC) is the process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools" Wikipedia says. 
-
-
+- Solution 5. "Infrastructure as code (IaC) is the process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools" Wikipedia says. The developers can easily create IaC with AWS CloudFormation. AWS CloudFormation allows you to provision resource without creating them one by one. IaC is quite useful to provison the resource in case of Disaster and create DEV, PROD and STAGING env.
 
 Requirement 6. The Customer wants to see relevant metrics and logs from the infrastructure for quality assurance and security
 purposes.
 
-Solution 6.
+Solution 6. 
 
 
