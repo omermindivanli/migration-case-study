@@ -3,7 +3,7 @@
 
 This repo is a migration case study from on-premise to Amazon Web Services. You will see a set of solutions about the Business Requirements have been shaped by client.
 
-# Scenerio
+# Scenario
 
 The customer, you are working with, asks you to create a pilot for one of the company's applications in public
 cloud. This is their first attempt to getting to know with non-on-prem environments so your responsibility is not only
