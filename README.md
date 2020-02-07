@@ -4,9 +4,9 @@
 
 - [Introduction](#Introduction)
   - [Scenario](#Scenario)
-  - [Current Architecture](#Current Architecture)
-- [Business Requirements](#Business Requirements)
-- [Desired Outputs](#Desired Outputs)
+  - [Architecture](#Architecture)
+- [Requirements](#Requirements)
+- [Outputs](#Outputs)
 - [Solutions](#Solutions)
   - [Architectural Diagram](#Architectural Diagram)
   - [Documentation](#Documentation)
