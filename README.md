@@ -76,7 +76,7 @@ The solutions is going to be provided in three different categories;
 
 This diagram has been designed as a solution to each of business problems below.
 
-<div class="sl-block is-focused" data-block-type="image" style="width: 946.726px; height: 667.734px; left: 6.637px; top: 18.865px; min-width: 1px; min-height: 1px;" data-origin-id="9e9174ae6ada4691ed8e91453e3b1e99"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1639" data-natural-height="1156" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7027873/twoTierWebApp__1_.jpg"></div></div>
+<div class="sl-block is-focused" data-block-type="image" style="width: 937.861px; height: 661.481px; left: 12.67px; top: 19.2595px; min-width: 1px; min-height: 1px;" data-origin-id="e6aeb6405f8f117733cf1fda848bc037"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1639" data-natural-height="1156" src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7037245/twoTierWebApp.jpg" data-lazy-loaded=""></div></div>
 
 # 2. Documentation
 
