@@ -1,4 +1,18 @@
 # Public Cloud Migration Case
+
+## Table of Contents
+
+- [Introduction](#Introduction)
+- [This solution](#this-solution)
+- [Examples](#examples)
+  - [Basic Example](#basic-example)
+  - [Complex Example](#complex-example)
+  - [More Examples](#more-examples)
+- [Hooks](#hooks)
+- [Contributors](#contributors)
+- [LICENSE](#license)
+
+
 # Introduction
 
 This repo is a migration case study from on-premise to Amazon Web Services. You will see a set of solutions about the Business Requirements have been shaped by client.
