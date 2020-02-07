@@ -99,7 +99,7 @@ Requirement 3. The Customer ensures continuity in service in case of datacenter 
 
 - There are many SAAS Solutions for cross-region replication in the case of disaster. It would be a wise choice get EBS Volume Snapshots and copy them to another region and create a CloudWatch Alarms integrated with Route 53 and ELB. Finally, the SAAS solutions agent is start to provision resource in another region based on the EBS Volume Snaphots system backuped. Please have a look to the image below.
 
-<div class="sl-block is-focused" data-block-type="image" style="width: 806.4px; height: 517.171px; left: 76.8px; top: 91.4145px;" data-origin-id="86103df04c76e95f0ba4855cea1eae07"><div class="sl-block-content" style="z-index: 10;"><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7041400/crossRegionReplication.png" data-natural-width="1500" data-natural-height="962" style=""></div></div>
+<div class="sl-block is-focused" data-block-type="image" style="width: 932.426px; height: 657.079px; left: 12.255px; top: 21.4605px;" data-origin-id="f5bb352154ac5a23af0d524eaaccdf71"><div class="sl-block-content" style="z-index: 10;"><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7041464/twoTierWebApp.jpg" data-natural-width="1639" data-natural-height="1155" style=""></div></div>
 
 Requirement 4. The Customer is planning to have more than 100 developers to work in this project who want to roll out multiple deployments a day without interruption / downtime.
 
