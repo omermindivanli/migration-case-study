@@ -8,7 +8,7 @@
 - [Requirements](#Requirements)
 - [Outputs](#Outputs)
 - [Solutions](#Solutions)
-  - [Architectural Diagram](#Architectural Diagram)
+  - [Diagram](#Diagram)
   - [Documentation](#Documentation)
   - [IaC](#IaC)
 - [Contributor](#contributor)
@@ -71,7 +71,7 @@ The solutions is going to be provided in three different categories;
 2. Documentation
 3. IaC Template on AWS CloudFormation
 
-# 1. Architectural Diagram 
+# 1. Diagram 
 
 This diagram has been designed as a solution to each of business problems below.
 
