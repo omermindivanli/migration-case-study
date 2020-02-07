@@ -27,7 +27,7 @@ choose any of major public cloud platforms; AWS, Azure or GCP, for the project.
 
 # Current Architecture
 
-<div class="sl-block is-focused" data-block-type="image" style="width: 932.426px; height: 657.079px; left: 12.255px; top: 21.4605px;" data-origin-id="f5bb352154ac5a23af0d524eaaccdf71"><div class="sl-block-content" style="z-index: 10;"><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7041464/twoTierWebApp.jpg" data-natural-width="1639" data-natural-height="1155" style=""></div></div>
+<div class="sl-block is-focused" data-block-type="image" style="width: 806.4px; height: 265.853px; left: 73.6px; top: 399.073px; min-width: 1px; min-height: 1px;" data-origin-id="cdcaf465f82a9278da2789c9fe471672"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1277" data-natural-height="421" style="" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7027811/Screenshot_2020-02-04_at_14.35.00.png"></div></div>
 
 Notejam is a web application which allows user to sign up/in/out and create/view/edit/delete notes. Notes can be
 grouped in pads. Application is designed to be easy to build and run locally. Customer does recognize this may not be
@@ -75,7 +75,7 @@ The solutions is going to be provided in three different categories;
 
 This diagram has been designed as a solution to each of business problems below.
 
-<div class="sl-block is-focused" data-block-type="image" style="width: 937.861px; height: 661.481px; left: 12.67px; top: 19.2595px; min-width: 1px; min-height: 1px;" data-origin-id="e6aeb6405f8f117733cf1fda848bc037"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1639" data-natural-height="1156" src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7037245/twoTierWebApp.jpg" data-lazy-loaded=""></div></div>
+<div class="sl-block is-focused" data-block-type="image" style="width: 932.426px; height: 657.079px; left: 12.255px; top: 21.4605px;" data-origin-id="f5bb352154ac5a23af0d524eaaccdf71"><div class="sl-block-content" style="z-index: 10;"><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7041464/twoTierWebApp.jpg" data-natural-width="1639" data-natural-height="1155" style=""></div></div>
 
 # Documentation
 
@@ -99,7 +99,7 @@ Requirement 3. The Customer ensures continuity in service in case of datacenter 
 
 - There are many SAAS Solutions for cross-region replication in the case of disaster. It would be a wise choice get EBS Volume Snapshots and copy them to another region and create a CloudWatch Alarms integrated with Route 53 and ELB. Finally, the SAAS solutions agent is start to provision resource in another region based on the EBS Volume Snaphots system backuped. Please have a look to the image below.
 
-<div class="sl-block is-focused" data-block-type="image" style="width: 932.426px; height: 657.079px; left: 12.255px; top: 21.4605px;" data-origin-id="f5bb352154ac5a23af0d524eaaccdf71"><div class="sl-block-content" style="z-index: 10;"><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7041464/twoTierWebApp.jpg" data-natural-width="1639" data-natural-height="1155" style=""></div></div>
+<div class="sl-block is-focused" data-block-type="image" style="width: 806.4px; height: 517.171px; left: 76.8px; top: 91.4145px;" data-origin-id="8635cd803c8f68c5473ee824fa0a1722"><div class="sl-block-content" style="z-index: 10;"><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7041400/crossRegionReplication.png" style="" data-natural-width="1500" data-natural-height="962"></div></div>
 
 Requirement 4. The Customer is planning to have more than 100 developers to work in this project who want to roll out multiple deployments a day without interruption / downtime.
 
