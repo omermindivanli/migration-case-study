@@ -111,6 +111,6 @@ Requirement 5. The Customer wants to provision separated environments to support
 
 Infrastructure as Code Template has been committed to this Github repo. Please have a look to the CloudFormation Template.
 
-- Contributor
+# Contributor
 
 Ömer Mindivanli - Senior Solutions Architect / Capgemini
