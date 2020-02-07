@@ -3,12 +3,14 @@
 ## Table of Contents
 
 - [Introduction](#Introduction)
-- [This solution](#this-solution)
-- [Examples](#examples)
-  - [Basic Example](#basic-example)
-  - [Complex Example](#complex-example)
-  - [More Examples](#more-examples)
-- [Hooks](#hooks)
+  - [Scenario](#Scenario)
+  - [Current Architecture](#Current Architecture)
+- [Business Requirements](#Business Requirements)
+- [Desired Outputs](#Desired Outputs)
+- [Solutions](#Solutions)
+  - [Architectural Diagram](#Architectural Diagram)
+  - [Documentation](#Documentation)
+- [Documentation](#Documentation)
 - [Contributors](#contributors)
 - [LICENSE](#license)
 
