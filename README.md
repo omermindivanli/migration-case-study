@@ -4,7 +4,7 @@
 
 - [Introduction](#Introduction)
   - [Scenario](#Scenario)
-  - [Current_Architecture](#Current)
+  - [Current Architecture](#Current Architecture)
 - [Business Requirements](#Business Requirements)
 - [Desired Outputs](#Desired Outputs)
 - [Solutions](#Solutions)
