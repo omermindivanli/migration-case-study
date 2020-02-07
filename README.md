@@ -46,7 +46,7 @@ Customer has provided you the GIT repo https://github.com/nordcloud/notejam with
 NOTE: There are multiple implementations of Notejam application in different languages and frameworks. Pick the one
 you are most comfortable with. All versions have identical functionality.
 
-# Business Requirements
+# Requirements
 
 1. The Application must serve variable amount of traffic. Most users are active during business hours. During big events and conferences the traffic could be 4 times more than typical.
 2. The Customer takes guarantee to preserve your notes up to 3 years and recover it if needed.
@@ -57,7 +57,7 @@ The Service must be capable of being migrated to any regions supported by the cl
 6. The Customer wants to see relevant metrics and logs from the infrastructure for quality assurance and security
 purposes.
 
-# Desired Outputs
+# Outputs
 
 The Customer wants you to present your solution and demonstrate the benefits supported by proper documentation.
 provide all the source code produced in the creation of the infrastructure in an organized way.
