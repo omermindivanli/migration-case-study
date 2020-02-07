@@ -10,9 +10,8 @@
 - [Solutions](#Solutions)
   - [Architectural Diagram](#Architectural Diagram)
   - [Documentation](#Documentation)
-- [Documentation](#Documentation)
-- [Contributors](#contributors)
-- [LICENSE](#license)
+  - [IaC](#IaC)
+- [Contributor](#contributor)
 
 
 # Introduction
@@ -111,3 +110,7 @@ Requirement 5. The Customer wants to provision separated environments to support
 # 3. IaC
 
 Infrastructure as Code Template has been committed to this Github repo. Please have a look to the CloudFormation Template.
+
+- Contributor
+
+Ömer Mindivanli - Senior Solutions Architect / Capgemini
