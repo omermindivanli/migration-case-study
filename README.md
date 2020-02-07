@@ -27,7 +27,7 @@ choose any of major public cloud platforms; AWS, Azure or GCP, for the project.
 
 # Current Architecture
 
-<div class="sl-block is-focused" data-block-type="image" style="width: 806.4px; height: 265.853px; left: 73.6px; top: 399.073px; min-width: 1px; min-height: 1px;" data-origin-id="cdcaf465f82a9278da2789c9fe471672"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1277" data-natural-height="421" style="" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7027811/Screenshot_2020-02-04_at_14.35.00.png"></div></div>
+<div class="sl-block is-focused" data-block-type="image" style="width: 932.426px; height: 657.079px; left: 12.255px; top: 21.4605px;" data-origin-id="f5bb352154ac5a23af0d524eaaccdf71"><div class="sl-block-content" style="z-index: 10;"><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7041464/twoTierWebApp.jpg" data-natural-width="1639" data-natural-height="1155" style=""></div></div>
 
 Notejam is a web application which allows user to sign up/in/out and create/view/edit/delete notes. Notes can be
 grouped in pads. Application is designed to be easy to build and run locally. Customer does recognize this may not be
