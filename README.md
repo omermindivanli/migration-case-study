@@ -72,13 +72,13 @@ The solutions is going to be provided in three different categories;
 2. Documentation
 3. IaC Template on AWS CloudFormation
 
-# Architectural Diagram 
+# 1. Architectural Diagram 
 
 This diagram has been designed as a solution to each of business problems below.
 
 <div class="sl-block is-focused" data-block-type="image" style="width: 946.726px; height: 667.734px; left: 6.637px; top: 18.865px; min-width: 1px; min-height: 1px;" data-origin-id="9e9174ae6ada4691ed8e91453e3b1e99"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1639" data-natural-height="1156" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7027873/twoTierWebApp__1_.jpg"></div></div>
 
-# Documentation
+# 2. Documentation
 
 The current architecture can be described as a classic monolith application lying behind a firewall, which denies all requests by default from internet but allows only specific type of requests such as HTTP, HTTPS or SSH via different ports after the configurations has been applied. At the first glance, it is also clear to identify this architecture as a two-tier web application, which is consist of a web-server and database-server. 
 
@@ -108,4 +108,6 @@ Requirement 5. The Customer wants to provision separated environments to support
 
 - Solution 5. "Infrastructure as code (IaC) is the process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools" Wikipedia says. The developers can easily create IaC with AWS CloudFormation. AWS CloudFormation allows you to provision resource without creating them one by one. IaC is quite useful to provison the resource in case of Disaster and create DEV, PROD and STAGING env.
 
+# 3. IaC
 
+Infrastructure as Code Template has been committed to this Github repo. Please have a look to the CloudFormation Template.
