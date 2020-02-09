@@ -85,9 +85,15 @@ When I analyze the business requirements and think about the available architect
 
 In the next section, I will investigate the business problems one by one, and provide the solution I designed on the architectural diagram on section 1.
 
+- VPC Architecture:
+
+As you see on (#Diagram), To create a secure, available and scalable architecture, the application deployed to three different avability zones. Each of web and database servers are installed in different subnets. The connection among subnets were provided VPC Router. In order to download software packages and versions from internet to private subnets NAT GW and Egress-only Internet Gateway attached to the VPC. For public subnets, an Internet Gatewat attached to the VPC and Security Groups (Firewalls) allowed the preffered requests from Internet.
+
+
+
 Requirement 1. The Application must serve variable amount of traffic. Most users are active during business hours. During big events and conferences the traffic could be 4 times more than typical. 
 
-- Solution 1. The solution to meet this requirement is to choose a type of EC2 Instances on the web-server part of architecture that can carry more traffic than the application need at the beginning stage of migration in order to prevent possible server outrage or down. After testing the available CPU usage on the EC2 Instances, the IT team would gradually decrase the type of instance from larger ones to relatively smaller ones. By that way, it would be possible to create a cost-optimised solution. But, this solutions should be the best practise to be able to meet the demand of getting 4 times more traffice during events and conferences. I strongly believe that the best solution for this requirement is to use an Auto-Scaling Group with Scheduled EC2 Instances and a well-designed Termination Policy, which could be configured before big events to be able to serve to huge amount of traffic during the events, and then, with the help of lifetime termination policy the auto-scaling group can terminate the instance has been launced before event and create cost-optimised architecture. 
+- Solution 1. The solution to meet this requirement is to choose a type of EC2 Instances on the web-server part of architecture that can carry more traffic than the application need at the beginning stage of migration in order to prevent possible server outrage or down. After testing the available CPU usage on the EC2 Instances, the IT team would gradually decrase the type of instance from larger ones to relatively smaller ones. By that way, it would be possible to create a cost-optimised solution. But, this solutions should be the best practise to be able to meet the demand of getting 4 times more traffice during events and conferences. The best solution for this requirement is to use an Auto-Scaling Group with Scheduled EC2 Instances and a well-designed Auto Termination Policy, which could be configured before big events to be able to serve to huge amount of traffic during the events, and then, with the help of lifetime termination policy the auto-scaling group can terminate the instance has been launced before event and create cost-optimised architecture. 
 
 Requirement 2. The Customer takes guarantee to preserve your notes up to 3 years and recover it if needed.
 
