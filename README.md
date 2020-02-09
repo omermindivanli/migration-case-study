@@ -75,7 +75,7 @@ The solutions is going to be provided in three different categories;
 
 This diagram has been designed as a solution to each of business problems below.
 
-<div class="sl-block is-focused" data-block-type="image" style="width: 932.426px; height: 657.079px; left: 12.255px; top: 21.4605px;" data-origin-id="f5bb352154ac5a23af0d524eaaccdf71"><div class="sl-block-content" style="z-index: 10;"><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7041464/twoTierWebApp.jpg" data-natural-width="1639" data-natural-height="1155" style=""></div></div>
+<div class="sl-block is-focused" data-block-type="image" style="width: 943.143px; height: 664.631px; left: 8.4285px; top: 17.6845px;" data-origin-id="27905459806bf7519733b319fa9ef0d3"><div class="sl-block-content" style="z-index: 10;"><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7045662/twoTierWebApp.jpg" style="" data-natural-width="1639" data-natural-height="1155"></div></div>
 
 # Documentation
 
@@ -89,6 +89,7 @@ In the next section, I will investigate the business problems one by one, and pr
 
 As you see on (#Diagram), To create a secure, available and scalable architecture, the application deployed to three different avability zones. Each of web and database servers are installed in different subnets. The connection among subnets were provided VPC Router. In order to download software packages and versions from internet to private subnets NAT GW and Egress-only Internet Gateway attached to the VPC. For public subnets, an Internet Gatewat attached to the VPC and Security Groups (Firewalls) allowed the preffered requests from Internet.
 
+<div class="sl-block is-focused" data-block-type="image" style="width: 806.4px; height: 348.255px; left: 76.8px; top: 175.873px;" data-origin-id="136cc8894d93f066c0d8f059888041e9"><div class="sl-block-content" style="z-index: 10;"><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7045665/vpc.jpg" style="" data-natural-width="998" data-natural-height="431"></div></div>
 
 
 Requirement 1. The Application must serve variable amount of traffic. Most users are active during business hours. During big events and conferences the traffic could be 4 times more than typical. 
