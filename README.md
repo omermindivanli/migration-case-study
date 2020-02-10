@@ -89,8 +89,7 @@ In the next section, I will investigate the business problems one by one, and pr
 
 As you see on (#Diagram), To create a secure, available and scalable architecture, the application deployed to three different avability zones. Each of web and database servers are installed in different subnets. The connection among subnets were provided VPC Router. In order to download software packages and versions from internet to private subnets NAT GW and Egress-only Internet Gateway attached to the VPC. For public subnets, an Internet Gatewat attached to the VPC and Security Groups (Firewalls) allowed the preffered requests from Internet.
 
-<div class="sl-block is-focused" data-block-type="image" style="width: 806.4px; height: 348.255px; left: 76.8px; top: 175.873px;" data-origin-id="136cc8894d93f066c0d8f059888041e9"><div class="sl-block-content" style="z-index: 10;"><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7045665/vpc.jpg" style="" data-natural-width="998" data-natural-height="431"></div></div>
-
+<div class="sl-block is-focused" data-block-type="image" style="width: 918.639px; height: 647.923px; left: 22.978px; top: 26.0385px; min-width: 1px; min-height: 1px;" data-origin-id="11982ebe8b780b93b3da52f5059e6e79"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="1639" data-natural-height="1156" style="" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/uploads/913733/images/7048049/twoTierWebApp.jpg"></div></div>
 
 Requirement 1. The Application must serve variable amount of traffic. Most users are active during business hours. During big events and conferences the traffic could be 4 times more than typical. 
 
