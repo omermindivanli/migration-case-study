@@ -117,6 +117,10 @@ Requirement 5. The Customer wants to provision separated environments to support
 
 - Solution 5. "Infrastructure as code (IaC) is the process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools" Wikipedia says. The developers can easily create IaC with AWS CloudFormation. AWS CloudFormation allows you to provision resource without creating them one by one. IaC is quite useful to provison the resource in case of Disaster and launching DEV, PROD and STAGING environmnets. The best way is to use CloudFormation for the requirement.
 
+Requirement 6. The Customer wants to see relevant metrics and logs from the infrastructure for quality assurance and security purposes.
+
+- Solution 6. Monitoring AWS services is a highly important subject to be able to see metrics and react in the case of incidents swiftly. The most important two AWS services to debug and monitor network, application and infrastructure is AWS CloudWatch, AWS CloudTrail and AWS Config. In order to meet this requirement, it is obligoraty to use AWS CloudTrail to observe and log the API calls. CloudTrail allows to check these calls depending the security checks.
+
 # IaC
 
 Infrastructure as Code Template has been committed to this Github repo. Please have a look to the CloudFormation Template.
