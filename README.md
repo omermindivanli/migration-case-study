@@ -119,7 +119,13 @@ Requirement 5. The Customer wants to provision separated environments to support
 
 Requirement 6. The Customer wants to see relevant metrics and logs from the infrastructure for quality assurance and security purposes.
 
-- Solution 6. Monitoring AWS services is a highly important subject to be able to see metrics and react in the case of incidents swiftly. The most important two AWS services to debug and monitor network, application and infrastructure is AWS CloudWatch, AWS CloudTrail and AWS Config. In order to meet this requirement, it is obligoraty to use AWS CloudTrail to observe and log the API calls. CloudTrail allows to check these calls depending the security checks.
+- Solution 6. Monitoring AWS services is a highly important subject to be able to see metrics and react in the case of incidents swiftly. The most important two AWS services to debug and monitor network, application and infrastructure is AWS CloudWatch, AWS CloudTrail and AWS Config. In order to meet this requirement, it is obligoraty to use AWS CloudTrail to observe and log the API calls. CloudTrail allows users to check these calls depending the security checks.
+
+As a best practise of using AWS CloudTrail the following actions need to be taken;
+
+Enabling CloudTrail for the globally infrastructure
+Enable logging for access related operations on CloudTrail for S3 buckets
+Enabling CloudWatch and CloudTrail Integration
 
 # IaC
 
