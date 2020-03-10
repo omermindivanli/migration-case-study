@@ -62,6 +62,23 @@ purposes.
 The Customer wants you to present your solution and demonstrate the benefits supported by proper documentation.
 provide all the source code produced in the creation of the infrastructure in an organized way.
 
+# How to Migrate Applications to Cloud
+
+Engagement Plan
+
+Sit together with customer and make a plan the whole migration operation on the engagement plan / roadmap
+
+Resource Plan / Allocation
+
+Documentation
+
+Action Plan
+
+Contact people
+
+Build up the team
+
+
 
 # Solutions
 
