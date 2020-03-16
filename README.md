@@ -62,21 +62,24 @@ purposes.
 The Customer wants you to present your solution and demonstrate the benefits supported by proper documentation.
 provide all the source code produced in the creation of the infrastructure in an organized way.
 
-# How to Migrate Applications to Cloud
+## How to Migrate Applications to Cloud
 
-Engagement Plan
+# Engagement Plan
+
+# Architecture Assesment
 
 Sit together with customer and make a plan the whole migration operation on the engagement plan / roadmap
 
-Resource Plan / Allocation
+# Resource Plan / Allocation
+ - Build up the team
+ - How many people are gonna be responsible
 
 Documentation
 
-Action Plan
+# Action Plan
 
 Contact people
 
-Build up the team
 
 
 
@@ -143,6 +146,13 @@ As a best practise of using AWS CloudTrail the following actions need to be take
 Enabling CloudTrail for the globally infrastructure
 Enable logging for access related operations on CloudTrail for S3 buckets
 Enabling CloudWatch and CloudTrail Integration
+
+# Reviewing the architecture with Well-Architectured Framework
+
+
+# How to migrate database from SQLite to AWS RDS - MySQL compatible
+ 
+
 
 # IaC
 
