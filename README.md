@@ -160,4 +160,4 @@ Infrastructure as Code Template has been committed to this Github repo. Please h
 
 # Contributor
 
-Ömer Mindivanli - Senior Solutions Architect / Capgemini
+Ömer Mindivanli Capgemini
